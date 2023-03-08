@@ -1,0 +1,48 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 87%;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding-top: 32px;
+  padding-right: 12px;
+  padding-bottom: 32px;
+  padding-left: 12px;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .faqs-container {
+    width: 90%;
+    max-width: 1140px;
+    padding: 32px;
+  }
+}
+
+.faq-heading {
+  font-size: 38px;
+  font-family: 'Roboto';
+  color: #cb8805;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 992px) {
+  .faq-heading {
+    font-size: 52px;
+    margin-bottom: 32px;
+  }
+}
+.list-item-container {
+  width: 100%;
+  list-style-type: none;
+}
